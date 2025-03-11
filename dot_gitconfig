@@ -2,3 +2,5 @@
 	name = MaksimZadar
 	email = maxzadarnovskiyy@gmail.com
 
+[core]
+	editor = nvim
