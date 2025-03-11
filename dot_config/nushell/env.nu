@@ -2,7 +2,7 @@ $env.path ++= ["~/.cargo/bin"]
 $env.config.shell_integration.osc133 = false
 
 let mise_path = $nu.default-config-dir | path join mise.nu
-^mise activate nu | save $mise_path --force
+^~/.local/bin/mise activate nu | save $mise_path --force
 
 ^ssh-agent -c
     | lines
@@ -11,3 +11,5 @@ let mise_path = $nu.default-config-dir | path join mise.nu
     | transpose -r
     | into record
     | load-env
+
+zoxide init --cmd cd nushell | save -f ~/.zoxide.nu
