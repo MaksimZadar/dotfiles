@@ -1,4 +1,4 @@
-$env.path ++= ["~/.cargo/bin"]
+$env.path ++= ["~/.cargo/bin", "/home/maxz/.local/bin"]
 $env.config.shell_integration.osc133 = false
 
 let mise_path = $nu.default-config-dir | path join mise.nu
