@@ -14,6 +14,7 @@ zoxide = "latest"
 zellij = "latest"
 age = "latest"
 node = "20.18"
+cheat = "latest"
 
 [settings]
 experimental = true
