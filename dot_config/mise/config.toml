@@ -14,3 +14,6 @@ zoxide = "latest"
 zellij = "latest"
 age = "latest"
 node = "20.18"
+
+[settings]
+experimental = true
